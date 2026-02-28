@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Шапка (Header) -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">🛒 TechStore</div>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="active">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button>🔎</button>
+                    <button>🛒</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Главный баннер (Hero Section) -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>TechStore</h1>
+                <p>Лучшая электроника по доступным ценам</p>
+                <a href="catalog.html" class="btn">Посмотреть каталог</a>
+            </div>
+        </section>
+        <!-- Секция "Популярные товары" -->
+        <section class="popular">
+            <div class="container">
+                <h2>Популярные товары</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="badge">-20%</div>
+                        <div class="product-image">
+                            <img src="img/products/product_1.jpg" alt="Наушники Sony WH-1000XM5">
+                        </div>
+                        <h3>Наушники Sony WH-1000XM5</h3>
+                        <p class="description">Премиальные наушники с активным шумоподавлением и временем работы до 30
+                            часов</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="count">(125)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old">29 990₽</span>
+                            <span class="current">24 990₽</span>
+                        </div>
+                        <button class="btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge new">НОВИНКА</div>
+                        <div class="product-image">
+                            <img src="img/products/product_2.jpg" alt="iPhone 17 Pro Max 512GB">
+                        </div>
+                        <h3>iPhone 17 Pro Max 512GB</h3>
+                        <p class="description">Флагманский смартфон с титановым корпусом и чипом А19 Pro</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="count">(342)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old">129 990₽</span>
+                            <span class="current">109 990₽</span>
+                        </div>
+                        <button class="btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/products/product_3.jpg" alt="MacBook Pro 14` M5 Pro">
+                        </div>
+                        <h3>MacBook Pro 14" M5 Pro</h3>
+                        <p class="description">Профессиональный ноутбук для работы и творчества с процессором M5 Pro</p>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="count">(89)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current">189 990₽</span>
+                        </div>
+                        <button class="btn">В корзину</button>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="catalog.html" class="btn-outline">Смотреть все товары</a>
+                </div>
+            </div>
+        </section>
+        <!-- Секция "Наши преимущества" -->
+        <section class="features">
+            <div class="container">
+                <h2>Наши преимущества</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Бесплатная доставка</h3>
+                        <p>Доставка по всей России при заказе от 3000₽</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Безопасная оплата</h3>
+                        <p>Все платежи защищены современными протоколами</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <h3>Гарантия качества</h3>
+                        <p>Официальная гарантия на все товары от производителей</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📞</div>
+                        <h3>Поддержка 24/7</h3>
+                        <p>Наши специалисты всегда готовы помочь</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Футер (Footer) -->
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>О магазине</h3>
+                <p>TechStore — ваш надёжный партнёр в мире электроники с 2020 года.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <div class="contact-item">
+                    <span class="contact-icon">📨</span>
+                    <span>nastya.zlamamnyuk@bk.ru</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <span>8 (902) 360-89-44</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>г. Волжский, ул. Ленина</span>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Мы в соцсетях</h3>
+                <div class="social-links">
+                    <a href="https://vk.com/zlamanyuk10">VK</a>
+                    <a href="https://t.me/anastaaaaasia1">Telegram</a>
+                    <a href="#">Одноклассники</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 TechStore. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
